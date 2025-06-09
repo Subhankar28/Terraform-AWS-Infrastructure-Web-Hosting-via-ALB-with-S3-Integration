@@ -104,7 +104,7 @@ yum update -y
 yum install -y httpd
 systemctl start httpd
 systemctl enable httpd
-echo "<h1>Hello from Subhankar's Instance 1</h1>" > /var/www/html/index.html
+echo "<h1>Welcome to DevOps</h1>" > /var/www/html/index.html
 userdata1.sh can host a different message for Instance 2.
 
 🧹 Cleanup
